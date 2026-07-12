@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Raylib C++ (gdb)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\game.exe",
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\raylib\\w64devkit\\bin\\gdb.exe",
+      "externalConsole": true,
+      "preLaunchTask": "Build C++ (Raylib w64devkit)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C++ (Raylib w64devkit)",
+      "type": "shell",
+      "command": "C:/raylib/w64devkit/bin/g++.exe",
+      "args": [
+        "SRC/*.cpp",
+        "-o", "game.exe",
+        "-std=c++17",
+        "-I", "C:/raylib/w64devkit/x86_64-w64-mingw32/include",
+        "-L", "C:/raylib/w64devkit/x86_64-w64-mingw32/lib",
+        "-lraylib",
+        "-lopengl32",
+        "-lgdi32",
+        "-lwinmm"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": "$gcc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
