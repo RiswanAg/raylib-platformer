@@ -1,6 +1,6 @@
 # Raylib Platformer
 
-A 2D platformer built in C++ with [raylib](https://www.raylib.com/), made for **BITE 3713 – Multiplatform Game** (UTeM, Semester 1 2025/2026).
+A 2D platformer built in C++ with [raylib](https://www.raylib.com/), made for **Game Engine II** (UTeM, Semester 1 2025/2026).
 
 Team of 4: Danish Irsyad, Riswan Hamua, Mohammad Hafiz, Hmam Nooreldeen.
 
